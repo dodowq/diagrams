@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:44:02.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="18.1.1" etag="dcROmMfMr1Bkoa2qVh-c" type="github"><diagram id="Kj_0pw2TCpymt6OpBjv3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-28T08:02:46.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KFxZrSk0wqkNxuS5pAMV" version="18.1.1" type="github">
+  <diagram id="Kj_0pw2TCpymt6OpBjv3" name="Page-1">
+    <mxGraphModel dx="2125" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZnH17qEO6tmUItcDU8P--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--1" target="ZnH17qEO6tmUItcDU8P--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--1" value="链上协议：&lt;br&gt;dodo v1 v2&lt;br&gt;uni v2 v3&lt;br&gt;curve&lt;br&gt;gambit&lt;br&gt;balance&lt;br&gt;woofi&lt;br&gt;impossible" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--3" value="第一步&lt;br&gt;获取链上资金池数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--7" target="ZnH17qEO6tmUItcDU8P--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--7" value="对资金池排列组合&lt;br&gt;深度优先遍历&lt;br&gt;两种算法：非拆单/拆单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--8" value="第二步&lt;br&gt;计算和寻找最优路径" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--9" target="ZnH17qEO6tmUItcDU8P--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--9" value="3个上链函数：&lt;br&gt;mixSwap&lt;br&gt;dodoMultiSwap&lt;br&gt;externalSwap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="300" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--11" value="第三步&lt;br&gt;将找到的路径组装成上链数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--12" target="ZnH17qEO6tmUItcDU8P--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--12" value="4个交易所&lt;br&gt;1bit, paraswap&lt;br&gt;1inch, 0x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--16" value="链下直接询价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--17" value="worker" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="80" width="1100" height="450" as="geometry">
+            <mxRectangle x="80" y="80" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--18" target="ZnH17qEO6tmUItcDU8P--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnH17qEO6tmUItcDU8P--18" target="ZnH17qEO6tmUItcDU8P--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--18" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="335" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnH17qEO6tmUItcDU8P--20" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
+          <mxGeometry x="950" y="335" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
